@@ -1,6 +1,6 @@
 node {
 	stage('Clone repository') {
-		git credentialsId: 'github_access_token', url: 'https://github.com/chaewonkwak/jenkins-mydiary-msa.git'
+		git credentialsId: 'github-access-token', url: 'https://github.com/chaewonkwak/jenkins-mydiary-msa.git'
 	}
 
 	stage('Build image') {
